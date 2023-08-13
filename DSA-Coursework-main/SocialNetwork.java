@@ -74,7 +74,7 @@ public class SocialNetwork {
             nodePositions = new HashMap<>();
             edgePositions = new HashMap<>();
 
-            loadGraphData("ajitdata.txt"); // Load user data from file
+            loadGraphData("ajitmandal.txt"); // Load user data from file
             addMouseListener(new MouseAdapter() {
                 @Override
                 public void mousePressed(MouseEvent e) {
@@ -192,7 +192,7 @@ public class SocialNetwork {
                 //         nodePositions.put(newNode, new Point(x, y));
                 //     }
                 // }
-                loadGraphData("riseshdata.txt");
+                loadGraphData("ajitmandal.txt");
             } catch (IOException e) {
                 e.printStackTrace();
             }
